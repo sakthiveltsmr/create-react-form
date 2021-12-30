@@ -1,0 +1,56 @@
+.Form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  background: cyan;
+  border: none;
+  box-shadow: 2px 5px 4px 4px black;
+  border-radius: 15px;
+}
+.name-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 45px;
+  position: fixed;
+}
+.email-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 45px;
+  position: fixed;
+  padding-top: 1rem;
+}
+.Btn-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+}
+.Btn-class .Btn {
+  border: none;
+  background: rgb(14, 238, 7);
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 5px 5px 0 rgba(136, 136, 91, 0.712);
+}
+.Btn-class .Btn:hover {
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  background: rgb(231, 15, 231);
+  color: blue;
+}
