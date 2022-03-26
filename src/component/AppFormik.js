@@ -37,7 +37,7 @@ function AppFormik() {
                   <Field
                     name="name"
                     type="text"
-                    //   value={values.name}
+                    value={values.name}
                     //   onChange={handleChange}
                     //   required
                   />
@@ -50,7 +50,7 @@ function AppFormik() {
                   <Field
                     name="Email"
                     type="email"
-                    //   value={values.Email}
+                    value={values.Email}
                     //   onChange={handleChange}
                     //   required
                   />
